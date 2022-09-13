@@ -6,14 +6,14 @@ import Navbar from "./components/shared/Navbar";
 
 function App() {
   return (
-    <div className="max-w-7xl mx-auto px-4 md:px-12">
+    <>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-    </div>
+    </>
   );
 }
 

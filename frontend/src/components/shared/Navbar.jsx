@@ -3,17 +3,17 @@ import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav>
-      <div class="navbar bg-base-100 p-0">
+    <nav className="bg-base-200 shadow-lg">
+      <div class="navbar p-0 max-w-7xl mx-auto px-4 md:px-12">
         <div class="flex-1">
-          <Link to="/" class="btn btn-ghost normal-case text-xl pl-0">
+          <Link to="/" class="normal-case text-xl pl-0">
             My Blog.
           </Link>
         </div>
         <div class="flex-none hidden sm:block">
           <ul class="menu menu-horizontal p-0">
             <li>
-              <NavLink to="/home">Home</NavLink>
+              <NavLink to="/">Home</NavLink>
             </li>
             <li>
               <NavLink to="/about">About</NavLink>
