@@ -1,7 +1,7 @@
 function Search() {
   return (
-    <div className="bg-primary p-5">
-      <h2 className="text-2xl font-bold">Search</h2>
+    <div className="bg-primary p-4">
+      <h2 className="text-xl font-bold">Search</h2>
       <input
         type="search"
         placeholder="Search here"

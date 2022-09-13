@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function PopularArtical() {
   return (
     <div className="bg-primary mt-3 p-5 mb-3">
-      <h2 className="text-2xl font-bold mb-2">Popular artical</h2>
+      <h2 className="text-xl font-bold mb-2">Popular artical</h2>
 
       <div class="flex mb-3">
         <div className="w-[30%]">
